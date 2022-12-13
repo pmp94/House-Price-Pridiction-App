@@ -18,10 +18,3 @@ statezip       - Zipcode
 Algorithm: I used Random forest a Supervised Machine Learning Algorithm to test and train my model. Test will be 20% and train will be 80%
 
 Evaluation: To evaluate the performance of the model, we will use a variety of metrics, such as mean absolute error and mean squared error. 
-
-
-
-
-
-
-"""
