@@ -1,37 +1,34 @@
-# House Price Pridiction model by Param Patel
-
-### Objective:
+### House Price Prediction Model
+## Objective
 The objective of this project is to develop a model that can accurately predict the sale price of a house based on a set of relevant features.
 
-Pridict House Rate by
-bedrooms       - No. of bedrooms
+## Data
+The dataset for this project consists of information about houses that have been sold in the past. It includes the following features:
 
-bathrooms      - No. of bathrooms
+* Number of bedrooms
+* Number of bathrooms
+* Square footage of the living space
+* Square footage of the lot
+* Number of floors
+* Proximity to the waterfront
+* View from the house
+* Condition of the house (on a scale of 1-5)
+* Age of the house
+* Zip code
 
-sqft_living    - square footage of the living
+## Methodology
+To develop the house price prediction model, we will use machine learning techniques. Specifically, we will use a random forest algorithm to train the model on the collected data. This will involve splitting the data into training and test sets, and then using the training data to train the model. The performance of the model will be evaluated on the test set.
 
-sqft_lot       - square footage of the lot
+## Evaluation
+To evaluate the performance of the model, we will use a variety of metrics, such as mean absolute error and mean squared error. We will also conduct a thorough analysis of the model's predictions to ensure that they are reasonable and consistent with market conditions.
 
-floors         - No. of floors
+## Usage
+To use the model, follow these steps:
 
-waterfront     - Nearby
+Install the required dependencies by running pip install -r requirements.txt
+1. Run the Jupyter notebook House_Predict_Model.ipynb to train the model and save it to a file
+2. Start the Flask app by running flask run
+3. Use the app to make predictions by entering values for the relevant features
 
-view           - side views from houes
-
-condition      - Out of 5
-
-no_year        - How old is the house
-
-statezip       - Zipcode
-
-
-### Algorithm: 
-I used Random forest a Supervised Machine Learning Algorithm to test and train my model. Test will be 20% and train will be 80%
-
-### Evaluation: 
-To evaluate the performance of the model, we will use a variety of metrics, such as mean absolute error and mean squared error. 
-
-## How to use
-step 1 - pip install -r requirements.txt
-step 2 - run House_Predict_Model_ParamPatel.ipynb and it will create a file called random_forest_regression_model_y_5.pkl
-step 3 - flask run
+## Conclusion
+This project presents a house price prediction model that can be used to make accurate predictions based on a set of relevant features. The model uses a random forest algorithm and has been evaluated using a variety of metrics. It can be easily integrated into a web app for use by potential home buyers or real estate professionals.
