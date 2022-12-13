@@ -19,7 +19,7 @@ Algorithm: I used Random forest a Supervised Machine Learning Algorithm to test 
 
 Evaluation: To evaluate the performance of the model, we will use a variety of metrics, such as mean absolute error and mean squared error. 
 
-##How to use
+## How to use
 step 1 - pip install -r requirements.txt
 step 2 - run House_Predict_Model_ParamPatel.ipynb and it will create a file called random_forest_regression_model_y_5.pkl
 step 3 - flask run
