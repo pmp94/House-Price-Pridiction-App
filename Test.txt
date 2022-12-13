@@ -1,0 +1,11 @@
+Beadroom = 4
+Bathroom = 2.5
+Sqft living = 2730
+Square Feet Lot = 12261
+Floors = 2
+Waterfront = 0
+View = 0
+Condition = 3
+Year = 1991
+Zipcode = 98011
+Price = 612500
